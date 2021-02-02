@@ -42,9 +42,11 @@ public class CustomBehaviour : MonoBehaviour
         String x, y, z, scale, description;
         entry.getAdditionalData().TryGetValue("x", out x);
         entry.getAdditionalData().TryGetValue("y", out y);
-        entry.getAdditionalData().TryGetValue("y", out z);
+        entry.getAdditionalData().TryGetValue("z", out z);
         entry.getAdditionalData().TryGetValue("scale", out scale);
         entry.getAdditionalData().TryGetValue("description", out description);
+        this.gameObject.transform.position = this.transform.position + new Vector3(float.Parse(x), 0, float.Parse(z));
+
 
         box = new GameObject(this.gameObject.name);
         box.transform.position = this.transform.position + new Vector3(float.Parse(x), 0, float.Parse(z) + 2);
