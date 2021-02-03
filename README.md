@@ -17,10 +17,6 @@ If you don't have an echoAR API key yet, make sure to register for FREE at [echo
 ## Run
 * [Build and run the AR application](https://docs.echoar.xyz/unity/adding-ar-capabilities#4-build-and-run-the-ar-application).
 
-## Notes
-* Touch Drag Button to enable dragging.
-* Touch on any planet to get information.
-
 ## Learn more
 Refer to our [documentation](https://docs.echoar.xyz/unity/) to learn more about how to use Unity, AR Foundation, and echoAR.
 
