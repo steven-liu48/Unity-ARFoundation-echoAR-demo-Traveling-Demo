@@ -32,5 +32,4 @@ You will see the buildings after tapping the screen. The indicator will be gone,
 The description then will be shown above the building. Tap again to hide.
 ## Todo
 - Use UI text to display description instead of MeshText
-- Fix position of objects
 - Fix box colliders
